@@ -1,2 +1,77 @@
-.venv
+############################
+# Python / Flask backend
+############################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+instance/
 .env
+.env.*
+*.env
+*.db
+*.bak
+
+# Flask static/media (если временные)
+backend/images/
+backend/static/
+backend/media/
+
+############################
+# Virtual Environment
+############################
+
+.venv/
+venv/
+env/
+
+############################
+# Node / React / Vite frontend
+############################
+
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# React environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+############################
+# macOS / System
+############################
+
+.DS_Store
+__MACOSX/
+
+############################
+# Logs / Temp
+############################
+
+*.log
+*.txt
+*.out
+*.tmp
+psyco_log.txt
+1.png
+
+############################
+# IDE / Editor
+############################
+
+.vscode/
+.idea/
+*.swp
+
+############################
+# Docker (если используешь volume‑папки)
+############################
+
+docker-volume/

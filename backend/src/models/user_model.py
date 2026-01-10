@@ -1,5 +1,5 @@
-from backend.src.database import db
-from sqlalchemy import relationship
+from backend.database import db
+from sqlalchemy.orm import relationship
 
 class User(db.Model):
     __tablename__ = "users"

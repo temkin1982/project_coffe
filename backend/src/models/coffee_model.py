@@ -1,5 +1,5 @@
-from sqlalchemy import relationship
-from backend.src.database import db
+from sqlalchemy.orm import relationship
+from backend.database import db
 
 class Coffee(db.Model):
     __tablename__ = "coffee"

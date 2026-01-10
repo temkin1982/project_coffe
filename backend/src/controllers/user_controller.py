@@ -26,13 +26,6 @@ def user_login(email_login: str, password_login: str):
 
 
 
-
-
-
-
-
-
-
 def user_from_dict(user: dict):
     return User.from_dict(user)
 

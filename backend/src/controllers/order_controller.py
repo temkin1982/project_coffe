@@ -27,3 +27,10 @@ def get_all_order_by_user(user_id: int):
     user_orders = db.session.query(Order).filter_by(user_id = user_id).all()
     return user_orders
 
+def order_from_dict(order: dict):
+    return Order.from_dict(order)
+
+
+def order_to_dict(order: Coffee):
+    return order.to_dict()
+
