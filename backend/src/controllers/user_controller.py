@@ -1,6 +1,6 @@
 from backend.src.models.user_model import User
 from backend.database import db
-from sqlalchemy import select
+
 
 
 def add_user(user: User):

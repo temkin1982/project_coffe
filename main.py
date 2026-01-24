@@ -6,7 +6,6 @@ from flask import Flask, send_from_directory
 from flask_cors import CORS
 
 
-
 from backend.database import init_database, create_tables
 
 # מייבא את הספרייה לקריאת משתנים מקובץ .env
@@ -72,8 +71,6 @@ def handle_react(path):
         return send_from_directory(app.static_folder, "index.html")
     
     
-
-
 
 # run flask
 if __name__ == "__main__":

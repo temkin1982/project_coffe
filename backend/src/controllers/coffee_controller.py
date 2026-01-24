@@ -15,11 +15,11 @@ def add_coffee(coffee: Coffee):
 
 
 def get_all_coffee():
-    coffe_list = db.session.query(Coffee).all()
+    coffee_list = db.session.query(Coffee).all()
     
-    if not coffe_list:
+    if not coffee_list:
         raise ValueError("Unable to load coffee data. Please try again later")
-    return coffe_list
+    return coffee_list
 
 
 def coffee_from_dict(coffee: dict):

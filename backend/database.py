@@ -17,9 +17,9 @@ def init_database(app: Flask):
 
 
 def create_tables():
-    from backend.src.models.coffee_model import Coffee
-    from backend.src.models.order_model import Order
-    from backend.src.models.user_model import User
+    # from backend.src.models.coffee_model import Coffee
+    # from backend.src.models.order_model import Order
+    # from backend.src.models.user_model import User
 
     db.create_all()
 
